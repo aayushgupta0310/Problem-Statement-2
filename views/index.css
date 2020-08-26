@@ -1,0 +1,13 @@
+.round {
+    border-radius: 15px;
+    border: 1px #fff solid;
+}
+.w3-container .Search {
+    min-width: 5px;
+    margin-top: 8px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+}

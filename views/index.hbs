@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="index.css">
+
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 85%;
+              margin: 90px;
+              margin-top: 40px;
+            }
+            
+            td {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+
+            th {
+              color: white;  
+              border: 1px solid #000000;
+              text-align: left;
+              padding: 8px;
+              background-color: black;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
+            <script>
+              function edValueKeyPress() {
+                var edValue = document.getElementById("cafeTextField");
+                var s = edValue.value;
+                console.log('value', s);
+                }
+
+            </script>
+    </head>
+    <body action="/" method="post">
+        <div class="w3-container w3-blue w3-center">
+            <br>
+            
+            <h2>California Cafe Directory</h2>
+            
+            <br>
+
+            <div class="Search">
+            <input id="cafeTextField"  type="text" onKeyPress="edValueKeyPress()" onKeyUp="edValueKeyPress()"  placeholder="Search Your Favorite Cafe" class="round">
+            </div>
+            
+            <br>
+            <br>
+          </div>
+          
+          <div margin: 10px>
+            <table>
+                <tr>
+                  <th>S.No</th>
+                  <th>Cafe Name</th>
+                  <th>Address</th>
+                  <th>Postal Code</th>
+                  <th>Lat</th>
+                  <th>Long</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Maria Anders</td>
+                  <td>Germany</td>
+                  <td>Germany</td>
+                  <td>Germany</td>
+                  <td>Germany</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Francisco Chang</td>
+                  <td>Francisco Chang</td>
+                  <td>Francisco Chang</td>
+                  <td>Francisco Chang</td>
+                  <td>Mexico</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>3</td>
+                  <td>3</td>
+                  <td>3</td>
+                  <td>Roland Mendel</td>
+                  <td>Austria</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Helen Bennett</td>
+                  <td>Helen Bennett</td>
+                  <td>Helen Bennett</td>
+                  <td>Helen Bennett</td>
+                  <td>UK</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Yoshi Tannamuri</td>
+                  <td>Yoshi Tannamuri</td>
+                  <td>Yoshi Tannamuri</td>
+                  <td>Yoshi Tannamuri</td>
+                  <td>Canada</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Giovanni Rovelli</td>
+                  <td>Giovanni Rovelli</td>
+                  <td>Giovanni Rovelli</td>
+                  <td>Giovanni Rovelli</td>
+                  <td>Italy</td>
+                </tr>
+              </table>
+          </div>
+
+    </body>
+</html>
