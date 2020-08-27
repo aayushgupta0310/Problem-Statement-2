@@ -5,18 +5,12 @@
 //     console.log('got keypress',cafeChar)
 // })
 
-function edValueKeyPress() {
-    var edValue = document.getElementById("cafeTextField");
-    var s = edValue.value;
-    console.log('value', s);
+// function edValueKeyPress() {
+//     var edValue = document.getElementById("cafeTextField");
+//     var s = edValue.value;
+//     console.log('value', s);
 
-}
-
-function cafeTextFieldKeyPress() {
-    var cafeTextField = document.getElementById("cafeTextField");
-    s += cafeTextField.value;
-    console.log(s)
-}
+// }
 
 exports.renderHomePage = (req,res) =>{
     res.render("index")
